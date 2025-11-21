@@ -1,0 +1,37 @@
+/* Definições de Fontes */
+body { 
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6, .logo-font { 
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase; 
+}
+
+/* Estilo do Hero (Imagem Grande) */
+.hero-box {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://dummyimage.com/1200x600/5c0000/ffffff.jpg&text=Luta+Principal');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #dc3545; /* Borda vermelha */
+}
+
+/* Logo e Links */
+.blog-header-logo { 
+    color: #dc3545; 
+    font-size: 2.2rem; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.blog-header-logo:hover {
+    color: #fff;
+}
+
+.nav-link { 
+    cursor: pointer; 
+}
+
+.nav-link:hover { 
+    color: #dc3545 !important; 
+}
